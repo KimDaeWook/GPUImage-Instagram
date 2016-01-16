@@ -1,0 +1,538 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0870274D1C4A080B0074E87F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870274C1C4A080B0074E87F /* main.m */; };
+		087027501C4A080B0074E87F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870274F1C4A080B0074E87F /* AppDelegate.m */; };
+		087027531C4A080B0074E87F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027521C4A080B0074E87F /* ViewController.m */; };
+		087027561C4A080B0074E87F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087027541C4A080B0074E87F /* Main.storyboard */; };
+		087027581C4A080B0074E87F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 087027571C4A080B0074E87F /* Assets.xcassets */; };
+		0870275B1C4A080B0074E87F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 087027591C4A080B0074E87F /* LaunchScreen.storyboard */; };
+		087027931C4A08F40074E87F /* GPUImageFiveInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027651C4A08F40074E87F /* GPUImageFiveInputFilter.m */; };
+		087027941C4A08F40074E87F /* GPUImageFourInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027671C4A08F40074E87F /* GPUImageFourInputFilter.m */; };
+		087027951C4A08F40074E87F /* GPUImageSixInputFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027691C4A08F40074E87F /* GPUImageSixInputFilter.m */; };
+		087027961C4A08F40074E87F /* GPUImage.InstagramFilter.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0870276B1C4A08F40074E87F /* GPUImage.InstagramFilter.bundle */; };
+		087027971C4A08F40074E87F /* IF1977Filter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870276D1C4A08F40074E87F /* IF1977Filter.m */; };
+		087027981C4A08F40074E87F /* IFAmaroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870276F1C4A08F40074E87F /* IFAmaroFilter.m */; };
+		087027991C4A08F40074E87F /* IFBrannanFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027711C4A08F40074E87F /* IFBrannanFilter.m */; };
+		0870279A1C4A08F40074E87F /* IFEarlybirdFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027731C4A08F40074E87F /* IFEarlybirdFilter.m */; };
+		0870279B1C4A08F40074E87F /* IFHefeFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027751C4A08F40074E87F /* IFHefeFilter.m */; };
+		0870279C1C4A08F40074E87F /* IFHudsonFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027771C4A08F40074E87F /* IFHudsonFilter.m */; };
+		0870279D1C4A08F40074E87F /* IFImageFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027791C4A08F40074E87F /* IFImageFilter.m */; };
+		0870279E1C4A08F40074E87F /* IFInkwellFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870277B1C4A08F40074E87F /* IFInkwellFilter.m */; };
+		0870279F1C4A08F40074E87F /* IFLomofiFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870277D1C4A08F40074E87F /* IFLomofiFilter.m */; };
+		087027A01C4A08F40074E87F /* IFLordKelvinFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870277F1C4A08F40074E87F /* IFLordKelvinFilter.m */; };
+		087027A11C4A08F40074E87F /* IFNashvilleFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027811C4A08F40074E87F /* IFNashvilleFilter.m */; };
+		087027A21C4A08F40074E87F /* IFNormalFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027831C4A08F40074E87F /* IFNormalFilter.m */; };
+		087027A31C4A08F40074E87F /* IFRiseFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027851C4A08F40074E87F /* IFRiseFilter.m */; };
+		087027A41C4A08F40074E87F /* IFSierraFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027871C4A08F40074E87F /* IFSierraFilter.m */; };
+		087027A51C4A08F40074E87F /* IFSutroFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027891C4A08F40074E87F /* IFSutroFilter.m */; };
+		087027A61C4A08F40074E87F /* IFToasterFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870278B1C4A08F40074E87F /* IFToasterFilter.m */; };
+		087027A71C4A08F40074E87F /* IFValenciaFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870278D1C4A08F40074E87F /* IFValenciaFilter.m */; };
+		087027A81C4A08F40074E87F /* IFWaldenFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0870278F1C4A08F40074E87F /* IFWaldenFilter.m */; };
+		087027A91C4A08F40074E87F /* IFXproIIFilter.m in Sources */ = {isa = PBXBuildFile; fileRef = 087027911C4A08F40074E87F /* IFXproIIFilter.m */; };
+		087027AB1C4A0BDD0074E87F /* sample_kuru.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 087027AA1C4A0BDD0074E87F /* sample_kuru.jpg */; };
+		890E132316B81D8150DFF5EB /* libPods-GPUImage-Instagram.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 36BB7985052ABA6B31D58FE5 /* libPods-GPUImage-Instagram.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0870274C1C4A080B0074E87F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0870274E1C4A080B0074E87F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0870274F1C4A080B0074E87F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		087027511C4A080B0074E87F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		087027521C4A080B0074E87F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		087027551C4A080B0074E87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		087027571C4A080B0074E87F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0870275A1C4A080B0074E87F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0870275C1C4A080B0074E87F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		087027621C4A089C0074E87F /* GPUImage-Instagram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "GPUImage-Instagram.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		087027641C4A08F40074E87F /* GPUImageFiveInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFiveInputFilter.h; sourceTree = "<group>"; };
+		087027651C4A08F40074E87F /* GPUImageFiveInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFiveInputFilter.m; sourceTree = "<group>"; };
+		087027661C4A08F40074E87F /* GPUImageFourInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageFourInputFilter.h; sourceTree = "<group>"; };
+		087027671C4A08F40074E87F /* GPUImageFourInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageFourInputFilter.m; sourceTree = "<group>"; };
+		087027681C4A08F40074E87F /* GPUImageSixInputFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GPUImageSixInputFilter.h; sourceTree = "<group>"; };
+		087027691C4A08F40074E87F /* GPUImageSixInputFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GPUImageSixInputFilter.m; sourceTree = "<group>"; };
+		0870276B1C4A08F40074E87F /* GPUImage.InstagramFilter.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPUImage.InstagramFilter.bundle; sourceTree = "<group>"; };
+		0870276C1C4A08F40074E87F /* IF1977Filter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IF1977Filter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870276D1C4A08F40074E87F /* IF1977Filter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IF1977Filter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870276E1C4A08F40074E87F /* IFAmaroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFAmaroFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870276F1C4A08F40074E87F /* IFAmaroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFAmaroFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027701C4A08F40074E87F /* IFBrannanFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFBrannanFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027711C4A08F40074E87F /* IFBrannanFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFBrannanFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027721C4A08F40074E87F /* IFEarlybirdFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFEarlybirdFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027731C4A08F40074E87F /* IFEarlybirdFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFEarlybirdFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027741C4A08F40074E87F /* IFHefeFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFHefeFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027751C4A08F40074E87F /* IFHefeFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFHefeFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027761C4A08F40074E87F /* IFHudsonFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFHudsonFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027771C4A08F40074E87F /* IFHudsonFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFHudsonFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027781C4A08F40074E87F /* IFImageFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFImageFilter.h; sourceTree = "<group>"; };
+		087027791C4A08F40074E87F /* IFImageFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFImageFilter.m; sourceTree = "<group>"; };
+		0870277A1C4A08F40074E87F /* IFInkwellFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFInkwellFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870277B1C4A08F40074E87F /* IFInkwellFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFInkwellFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870277C1C4A08F40074E87F /* IFLomofiFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFLomofiFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870277D1C4A08F40074E87F /* IFLomofiFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFLomofiFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870277E1C4A08F40074E87F /* IFLordKelvinFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFLordKelvinFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870277F1C4A08F40074E87F /* IFLordKelvinFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFLordKelvinFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027801C4A08F40074E87F /* IFNashvilleFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFNashvilleFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027811C4A08F40074E87F /* IFNashvilleFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFNashvilleFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027821C4A08F40074E87F /* IFNormalFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFNormalFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027831C4A08F40074E87F /* IFNormalFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFNormalFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027841C4A08F40074E87F /* IFRiseFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFRiseFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027851C4A08F40074E87F /* IFRiseFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFRiseFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027861C4A08F40074E87F /* IFSierraFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFSierraFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027871C4A08F40074E87F /* IFSierraFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFSierraFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027881C4A08F40074E87F /* IFSutroFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFSutroFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027891C4A08F40074E87F /* IFSutroFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFSutroFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870278A1C4A08F40074E87F /* IFToasterFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFToasterFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870278B1C4A08F40074E87F /* IFToasterFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFToasterFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870278C1C4A08F40074E87F /* IFValenciaFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFValenciaFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870278D1C4A08F40074E87F /* IFValenciaFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFValenciaFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		0870278E1C4A08F40074E87F /* IFWaldenFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFWaldenFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		0870278F1C4A08F40074E87F /* IFWaldenFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFWaldenFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027901C4A08F40074E87F /* IFXproIIFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = IFXproIIFilter.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027911C4A08F40074E87F /* IFXproIIFilter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = IFXproIIFilter.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		087027921C4A08F40074E87F /* InstaFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = InstaFilters.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		087027AA1C4A0BDD0074E87F /* sample_kuru.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = sample_kuru.jpg; sourceTree = "<group>"; };
+		2894E3A5A558DE0B88698165 /* Pods-GPUImage-Instagram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage-Instagram.release.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage-Instagram/Pods-GPUImage-Instagram.release.xcconfig"; sourceTree = "<group>"; };
+		36BB7985052ABA6B31D58FE5 /* libPods-GPUImage-Instagram.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-GPUImage-Instagram.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7FE5B12DDA3A7864BBD108F3 /* Pods-GPUImage-Instagram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GPUImage-Instagram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GPUImage-Instagram/Pods-GPUImage-Instagram.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		087027451C4A080B0074E87F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				890E132316B81D8150DFF5EB /* libPods-GPUImage-Instagram.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0870273F1C4A080B0074E87F = {
+			isa = PBXGroup;
+			children = (
+				0870274A1C4A080B0074E87F /* Sources */,
+				0870274B1C4A080B0074E87F /* Supporting Files */,
+				15E34034F656401029CF8481 /* Pods */,
+				B200E34BFD105E0A161AECDE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0870274A1C4A080B0074E87F /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				087027631C4A08F40074E87F /* Filters */,
+				087027511C4A080B0074E87F /* ViewController.h */,
+				087027521C4A080B0074E87F /* ViewController.m */,
+				087027AA1C4A0BDD0074E87F /* sample_kuru.jpg */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0870274B1C4A080B0074E87F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				087027621C4A089C0074E87F /* GPUImage-Instagram.app */,
+				087027571C4A080B0074E87F /* Assets.xcassets */,
+				0870274E1C4A080B0074E87F /* AppDelegate.h */,
+				0870274F1C4A080B0074E87F /* AppDelegate.m */,
+				087027541C4A080B0074E87F /* Main.storyboard */,
+				087027591C4A080B0074E87F /* LaunchScreen.storyboard */,
+				0870275C1C4A080B0074E87F /* Info.plist */,
+				0870274C1C4A080B0074E87F /* main.m */,
+			);
+			name = "Supporting Files";
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		087027631C4A08F40074E87F /* Filters */ = {
+			isa = PBXGroup;
+			children = (
+				087027641C4A08F40074E87F /* GPUImageFiveInputFilter.h */,
+				087027651C4A08F40074E87F /* GPUImageFiveInputFilter.m */,
+				087027661C4A08F40074E87F /* GPUImageFourInputFilter.h */,
+				087027671C4A08F40074E87F /* GPUImageFourInputFilter.m */,
+				087027681C4A08F40074E87F /* GPUImageSixInputFilter.h */,
+				087027691C4A08F40074E87F /* GPUImageSixInputFilter.m */,
+				0870276A1C4A08F40074E87F /* Instagram */,
+			);
+			path = Filters;
+			sourceTree = "<group>";
+		};
+		0870276A1C4A08F40074E87F /* Instagram */ = {
+			isa = PBXGroup;
+			children = (
+				0870276B1C4A08F40074E87F /* GPUImage.InstagramFilter.bundle */,
+				0870276C1C4A08F40074E87F /* IF1977Filter.h */,
+				0870276D1C4A08F40074E87F /* IF1977Filter.m */,
+				0870276E1C4A08F40074E87F /* IFAmaroFilter.h */,
+				0870276F1C4A08F40074E87F /* IFAmaroFilter.m */,
+				087027701C4A08F40074E87F /* IFBrannanFilter.h */,
+				087027711C4A08F40074E87F /* IFBrannanFilter.m */,
+				087027721C4A08F40074E87F /* IFEarlybirdFilter.h */,
+				087027731C4A08F40074E87F /* IFEarlybirdFilter.m */,
+				087027741C4A08F40074E87F /* IFHefeFilter.h */,
+				087027751C4A08F40074E87F /* IFHefeFilter.m */,
+				087027761C4A08F40074E87F /* IFHudsonFilter.h */,
+				087027771C4A08F40074E87F /* IFHudsonFilter.m */,
+				087027781C4A08F40074E87F /* IFImageFilter.h */,
+				087027791C4A08F40074E87F /* IFImageFilter.m */,
+				0870277A1C4A08F40074E87F /* IFInkwellFilter.h */,
+				0870277B1C4A08F40074E87F /* IFInkwellFilter.m */,
+				0870277C1C4A08F40074E87F /* IFLomofiFilter.h */,
+				0870277D1C4A08F40074E87F /* IFLomofiFilter.m */,
+				0870277E1C4A08F40074E87F /* IFLordKelvinFilter.h */,
+				0870277F1C4A08F40074E87F /* IFLordKelvinFilter.m */,
+				087027801C4A08F40074E87F /* IFNashvilleFilter.h */,
+				087027811C4A08F40074E87F /* IFNashvilleFilter.m */,
+				087027821C4A08F40074E87F /* IFNormalFilter.h */,
+				087027831C4A08F40074E87F /* IFNormalFilter.m */,
+				087027841C4A08F40074E87F /* IFRiseFilter.h */,
+				087027851C4A08F40074E87F /* IFRiseFilter.m */,
+				087027861C4A08F40074E87F /* IFSierraFilter.h */,
+				087027871C4A08F40074E87F /* IFSierraFilter.m */,
+				087027881C4A08F40074E87F /* IFSutroFilter.h */,
+				087027891C4A08F40074E87F /* IFSutroFilter.m */,
+				0870278A1C4A08F40074E87F /* IFToasterFilter.h */,
+				0870278B1C4A08F40074E87F /* IFToasterFilter.m */,
+				0870278C1C4A08F40074E87F /* IFValenciaFilter.h */,
+				0870278D1C4A08F40074E87F /* IFValenciaFilter.m */,
+				0870278E1C4A08F40074E87F /* IFWaldenFilter.h */,
+				0870278F1C4A08F40074E87F /* IFWaldenFilter.m */,
+				087027901C4A08F40074E87F /* IFXproIIFilter.h */,
+				087027911C4A08F40074E87F /* IFXproIIFilter.m */,
+				087027921C4A08F40074E87F /* InstaFilters.h */,
+			);
+			path = Instagram;
+			sourceTree = "<group>";
+		};
+		15E34034F656401029CF8481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7FE5B12DDA3A7864BBD108F3 /* Pods-GPUImage-Instagram.debug.xcconfig */,
+				2894E3A5A558DE0B88698165 /* Pods-GPUImage-Instagram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B200E34BFD105E0A161AECDE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36BB7985052ABA6B31D58FE5 /* libPods-GPUImage-Instagram.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		087027471C4A080B0074E87F /* GPUImage-Instagram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0870275F1C4A080B0074E87F /* Build configuration list for PBXNativeTarget "GPUImage-Instagram" */;
+			buildPhases = (
+				38740944DDE9268B356ABA76 /* Check Pods Manifest.lock */,
+				087027441C4A080B0074E87F /* Sources */,
+				087027451C4A080B0074E87F /* Frameworks */,
+				087027461C4A080B0074E87F /* Resources */,
+				5AE4C56AB548A6D1BCEC1A70 /* Embed Pods Frameworks */,
+				8ECAAA221FB2D64D3AADF1FB /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "GPUImage-Instagram";
+			productName = "GPUImage-Instagram";
+			productReference = 087027621C4A089C0074E87F /* GPUImage-Instagram.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		087027401C4A080B0074E87F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = KimDaewook;
+				TargetAttributes = {
+					087027471C4A080B0074E87F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = 087027431C4A080B0074E87F /* Build configuration list for PBXProject "GPUImage-Instagram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0870273F1C4A080B0074E87F;
+			productRefGroup = 0870273F1C4A080B0074E87F;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				087027471C4A080B0074E87F /* GPUImage-Instagram */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		087027461C4A080B0074E87F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087027961C4A08F40074E87F /* GPUImage.InstagramFilter.bundle in Resources */,
+				087027AB1C4A0BDD0074E87F /* sample_kuru.jpg in Resources */,
+				0870275B1C4A080B0074E87F /* LaunchScreen.storyboard in Resources */,
+				087027581C4A080B0074E87F /* Assets.xcassets in Resources */,
+				087027561C4A080B0074E87F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38740944DDE9268B356ABA76 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5AE4C56AB548A6D1BCEC1A70 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage-Instagram/Pods-GPUImage-Instagram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8ECAAA221FB2D64D3AADF1FB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GPUImage-Instagram/Pods-GPUImage-Instagram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		087027441C4A080B0074E87F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				087027A31C4A08F40074E87F /* IFRiseFilter.m in Sources */,
+				087027951C4A08F40074E87F /* GPUImageSixInputFilter.m in Sources */,
+				087027A51C4A08F40074E87F /* IFSutroFilter.m in Sources */,
+				0870279C1C4A08F40074E87F /* IFHudsonFilter.m in Sources */,
+				0870279F1C4A08F40074E87F /* IFLomofiFilter.m in Sources */,
+				087027531C4A080B0074E87F /* ViewController.m in Sources */,
+				0870279E1C4A08F40074E87F /* IFInkwellFilter.m in Sources */,
+				087027941C4A08F40074E87F /* GPUImageFourInputFilter.m in Sources */,
+				087027501C4A080B0074E87F /* AppDelegate.m in Sources */,
+				087027971C4A08F40074E87F /* IF1977Filter.m in Sources */,
+				0870279A1C4A08F40074E87F /* IFEarlybirdFilter.m in Sources */,
+				087027A71C4A08F40074E87F /* IFValenciaFilter.m in Sources */,
+				087027A41C4A08F40074E87F /* IFSierraFilter.m in Sources */,
+				087027991C4A08F40074E87F /* IFBrannanFilter.m in Sources */,
+				0870279D1C4A08F40074E87F /* IFImageFilter.m in Sources */,
+				0870274D1C4A080B0074E87F /* main.m in Sources */,
+				0870279B1C4A08F40074E87F /* IFHefeFilter.m in Sources */,
+				087027A21C4A08F40074E87F /* IFNormalFilter.m in Sources */,
+				087027931C4A08F40074E87F /* GPUImageFiveInputFilter.m in Sources */,
+				087027A91C4A08F40074E87F /* IFXproIIFilter.m in Sources */,
+				087027A81C4A08F40074E87F /* IFWaldenFilter.m in Sources */,
+				087027A11C4A08F40074E87F /* IFNashvilleFilter.m in Sources */,
+				087027A01C4A08F40074E87F /* IFLordKelvinFilter.m in Sources */,
+				087027981C4A08F40074E87F /* IFAmaroFilter.m in Sources */,
+				087027A61C4A08F40074E87F /* IFToasterFilter.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		087027541C4A080B0074E87F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				087027551C4A080B0074E87F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		087027591C4A080B0074E87F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0870275A1C4A080B0074E87F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0870275D1C4A080B0074E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0870275E1C4A080B0074E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		087027601C4A080B0074E87F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FE5B12DDA3A7864BBD108F3 /* Pods-GPUImage-Instagram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "works.useless.GPUImage-Instagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		087027611C4A080B0074E87F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2894E3A5A558DE0B88698165 /* Pods-GPUImage-Instagram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "$(SRCROOT)/Sources/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "works.useless.GPUImage-Instagram";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		087027431C4A080B0074E87F /* Build configuration list for PBXProject "GPUImage-Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0870275D1C4A080B0074E87F /* Debug */,
+				0870275E1C4A080B0074E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0870275F1C4A080B0074E87F /* Build configuration list for PBXNativeTarget "GPUImage-Instagram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				087027601C4A080B0074E87F /* Debug */,
+				087027611C4A080B0074E87F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 087027401C4A080B0074E87F /* Project object */;
+}
